@@ -3,6 +3,8 @@
  - HFNC_Collection.sql: Collect data from MIMIC-IV v2.2
  - HFNC_Preprocessing: Data preprocessing on collected data
  - HFC_Training: Model training on preprocessed data
+ - HFNC_latest.csv: Raw features
+ - HFNC_median.csv: Preprocessed features
 
 ### Data Collection
 Run HFNC_Collection.sql on MIMIC-IV dataset, and receive "HFNC_latest.csv" as raw data.
